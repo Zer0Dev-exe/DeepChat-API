@@ -17,4 +17,4 @@ app.include_router(
 
 @app.get("/")
 def read_root():
-    return {"message": "Bienvenido a la API de Deekseep de Zer0Dev"}
+    return {"Bienvenido a la API de Deekseep de Zer0Dev"}
