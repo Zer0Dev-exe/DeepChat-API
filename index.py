@@ -15,6 +15,6 @@ app.include_router(
     dependencies=[Depends(verificar_token)]
 )
 
-@app.get("/")
-def read_root():
-    return {"Bienvenido a la API de Deekseep de Zer0Dev"}
+#@app.get("/")
+#def read_root():
+    #return {"Bienvenido a la API de Deekseep de Zer0Dev"}
